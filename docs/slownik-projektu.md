@@ -6,6 +6,9 @@ Jeżeli pojęcie zaczyna być używane regularnie – powinno zostać tu zapisan
 
 ---
 
+* **PaniBasia / PB / Basia / basia** – różne formy nazewnictwa tego samego projektu/modułu.
+* **GitHub / GH** – platforma hostingowa, na której znajduje się nasze repozytorium z kodem i dokumentacją.
+
 ## Podstawowe pojęcia
 
 ### Zatwierdzamy
