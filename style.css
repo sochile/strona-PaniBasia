@@ -1,0 +1,45 @@
+/* Ogólne ustawienia strony */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f6f6;
+    color: #222;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+/* Główne nagłówki */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Tekst */
+p {
+    max-width: 700px;
+}
+
+/* Listy */
+ul {
+    padding-left: 20px;
+    max-width: 700px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Linki */
+a {
+    color: #1a73b8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Delikatne oddzielenie treści */
+body > * {
+    margin-bottom: 16px;
+}
