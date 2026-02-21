@@ -53,6 +53,7 @@ Pani Basia będzie rozwijana i udoskonalana. Plan może się zmieniać w miarę 
 - Ustalony sposób współpracy człowiek + AI
 - Połączone konto Netlify i GitHub
 - Konto na Telegram – Token i ID gotowe
+- Supabase jako baza danych z tabelą `messages`
 
 **Uwagi dotyczące Bota / Agenta:**
 - Bot/Agent działa tylko w ramach ustaleń z człowiekiem
@@ -71,3 +72,15 @@ Projekt **Strona Pani Basia** działa już w pełni online dzięki integracji Gi
 - Człowiek może szybko przeglądać stronę w Netlify i weryfikować zmiany.  
 - Strona jest modularna, łatwa w aktualizacji i rozwijaniu kolejnych funkcji.
 
+### 🗄️ Konfiguracja Supabase (Baza danych)
+
+Baza danych projektu to **Basia1**. 
+
+ Struktura tabeli `messages`:
+| Kolumna | Typ | Opis |
+| :--- | :--- | :--- |
+| `id` | uuid | Klucz główny (generowany automatycznie) |
+| `source` | text | Źródło wiadomości (np. Telegram) |
+| `user_id` | text | ID użytkownika z Telegrama |
+| `content` | text | Treść wiadomości |
+| `created_at` | timestamptz | Data i godzina zapisu |
