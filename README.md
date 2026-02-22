@@ -21,7 +21,7 @@ Pani Basia będzie rozwijana i udoskonalana. Plan może się zmieniać w miarę 
 - Nauka języków
 
 ### Kolejność działań / Roadmapa
-1. Połączyć stronę lokalną z Netlify z dostępem AI do tej strony
+1. Połączyć stronę lokalną z Railway z dostępem AI do tej strony
 2. Rozpocząć prace w GitHub
 3. Rozwijanie modułów zgodnie z listą funkcji
 
@@ -47,11 +47,11 @@ Pani Basia będzie rozwijana i udoskonalana. Plan może się zmieniać w miarę 
 - AI działa wyłącznie w ramach ustalonych z człowiekiem – **nie może podejmować samodzielnych działań**.
 
 ## Co już mamy
-- Działająca **strona lokalna**
-- Struktura podstron gotowa
+-
+
 - Opis Pani Basi opracowany
 - Ustalony sposób współpracy człowiek + AI
-- Połączone konto Netlify i GitHub
+-
 - Konto na Telegram – Token i ID gotowe
 - Supabase jako baza danych z tabelą `messages`
 
@@ -60,16 +60,12 @@ Pani Basia będzie rozwijana i udoskonalana. Plan może się zmieniać w miarę 
 - Nie wprowadza zmian samodzielnie – wszystko jest propozycją do zatwierdzenia
 - W przyszłości będzie rozwijany modułowo w oparciu o ten stan początkowy
 
-## Połączenie GitHub i Netlify
-Projekt **Strona Pani Basia** działa już w pełni online dzięki integracji GitHub i Netlify:
 
 - **GitHub** – przechowuje wszystkie pliki projektu, w tym HTML, CSS, kody, README.md oraz pod-README.md.  
-- **Netlify** – wyświetla stronę w przeglądarce, automatycznie aktualizując ją przy każdym pushu do GitHub.  
-- Dzięki temu każda zmiana w repo (np. nowy moduł, aktualizacja dokumentacji) jest **natychmiast widoczna online** na stronie: [https://strona-pani-basia.netlify.app/](https://strona-pani-basia.netlify.app/).
-
+-
 ### Korzyści
 - AI zawsze ma dostęp do aktualnej dokumentacji z GitHub.  
-- Człowiek może szybko przeglądać stronę w Netlify i weryfikować zmiany.  
+-
 - Strona jest modularna, łatwa w aktualizacji i rozwijaniu kolejnych funkcji.
 
 ### 🗄️ Konfiguracja Supabase (Baza danych)
